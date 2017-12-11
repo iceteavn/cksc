@@ -1,0 +1,259 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome to CakePHP 3 - School Cheater in CakePHP 3.5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\font-awesome.min.css">
+    <link rel="stylesheet" href="css\highlight.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\my.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <i class="fa fa-bars sidebar-toggle"></i>
+        <span class="title"><a href="schoolcheater.html">School Cheater in CakePHP 3.5</a></span>
+      </div>
+      <div class="sidebar">
+        <ul>
+          <li class="unnumbered visible">
+            <a href="schoolcheater.html" data-alt-hash="school-cheater">School Cheater</a>
+            <ul>
+              <li class="unnumbered visible"><a href="schoolcheater.html#preface">Preface</a></li>
+              <li class="unnumbered visible"><a href="schoolcheater.html#documentation">Documentation</a></li>
+              <li class="unnumbered visible"><a href="schoolcheater.html#schedule">Schedule</a></li>
+              <li class="unnumbered visible"><a href="schoolcheater.html#history">History</a></li>
+            </ul>
+          </li>
+          <li class="unnumbered visible">
+            <a href="cakephp.html" data-alt-hash="welcome-to-cakephp-3">Welcome to CakePHP 3</a>
+            <ul>
+              <li class="unnumbered visible">
+                <a href="cakephp.html#getting-started">Getting Started</a>
+                <ul>
+                  <li class="unnumbered visible">
+                    <a href="cakephp.html#conventions-over-configuration">Conventions Over Configuration</a>
+                    <ul>
+                      <li class="unnumbered invisible"><a href="cakephp.html#controller-conventions">Controller Conventions</a></li>
+                      <li class="unnumbered invisible"><a href="cakephp.html#url-considerations-for-controller-names">URL Considerations for Controller Names</a></li>
+                      <li class="unnumbered invisible"><a href="cakephp.html#file-and-class-name-conventions">File and Class Name Conventions</a></li>
+                      <li class="unnumbered invisible"><a href="cakephp.html#database-conventions">Database Conventions</a></li>
+                      <li class="unnumbered invisible"><a href="cakephp.html#model-conventions">Model Conventions</a></li>
+                      <li class="unnumbered invisible"><a href="cakephp.html#view-conventions">View Conventions</a></li>
+                    </ul>
+                  </li>
+                  <li class="unnumbered visible"><a href="cakephp.html#the-model-layer">The Model Layer</a></li>
+                  <li class="unnumbered visible"><a href="cakephp.html#the-view-layer">The View Layer</a></li>
+                  <li class="unnumbered visible"><a href="cakephp.html#the-controller-layer">The Controller Layer</a></li>
+                  <li class="unnumbered visible"><a href="cakephp.html#cakephp-request-cycle">CakePHP Request Cycle</a></li>
+                </ul>
+              </li>
+              <li class="unnumbered visible">
+                <a href="cakephp.html#installation">Installation</a>
+                <ul>
+                  <li class="unnumbered visible"><a href="cakephp.html#requirements">Requirements</a></li>
+                  <li class="unnumbered visible"><a href="cakephp.html#using-cakephp">Using CakePHP</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="content-handle"></div>
+        <div class="content-container">
+          <div class="content-nav content-nav-top">
+            <a class="prev-page" href="schoolcheater.html">
+            <i class="fa fa-angle-left"></i>
+            School Cheater
+            </a>
+          </div>
+          <div class="page-toc">
+            <ul>
+              <li class="unnumbered visible">
+                <a href="#welcome-to-cakephp-3">Welcome to CakePHP 3</a>
+                <ul>
+                  <li class="unnumbered visible">
+                    <a href="#getting-started">Getting Started</a>
+                    <ul>
+                      <li class="unnumbered visible">
+                        <a href="#conventions-over-configuration">Conventions Over Configuration</a>
+                        <ul>
+                          <li class="unnumbered invisible"><a href="#controller-conventions">Controller Conventions</a></li>
+                          <li class="unnumbered invisible"><a href="#url-considerations-for-controller-names">URL Considerations for Controller Names</a></li>
+                          <li class="unnumbered invisible"><a href="#file-and-class-name-conventions">File and Class Name Conventions</a></li>
+                          <li class="unnumbered invisible"><a href="#database-conventions">Database Conventions</a></li>
+                          <li class="unnumbered invisible"><a href="#model-conventions">Model Conventions</a></li>
+                          <li class="unnumbered invisible"><a href="#view-conventions">View Conventions</a></li>
+                        </ul>
+                      </li>
+                      <li class="unnumbered visible"><a href="#the-model-layer">The Model Layer</a></li>
+                      <li class="unnumbered visible"><a href="#the-view-layer">The View Layer</a></li>
+                      <li class="unnumbered visible"><a href="#the-controller-layer">The Controller Layer</a></li>
+                      <li class="unnumbered visible"><a href="#cakephp-request-cycle">CakePHP Request Cycle</a></li>
+                    </ul>
+                  </li>
+                  <li class="unnumbered visible">
+                    <a href="#installation">Installation</a>
+                    <ul>
+                      <li class="unnumbered visible"><a href="#requirements">Requirements</a></li>
+                      <li class="unnumbered visible"><a href="#using-cakephp">Using CakePHP</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="main-content">
+            <h1 id="welcome-to-cakephp-3">Welcome to CakePHP 3</h1>
+            <p>CakePHP 3 is a web development framework running on PHP 7.1 (min. PHP 5.6.0)</p>
+            <p>The key elements in a CakePHP application:</p>
+            <ul>
+              <li>The CakePHP request cycle</li>
+              <li>The conventions that CakePHP uses.</li>
+              <li>Controllers handle requests and co-ordinate your models and the responses your application creates.</li>
+              <li>Views are the presentation layer in your application. They give you powerful tools to create HTML, JSON and the other outputs your application needs.</li>
+              <li>Models are the key ingredient in any application. They handle validation, and domain logic within your application.</li>
+            </ul>
+            <h2 id="getting-started">Getting Started</h2>
+            <p>CakePHP is designed to make common web-development tasks simple, and easy.</p>
+            <h3 id="conventions-over-configuration">Conventions Over Configuration</h3>
+            <p>CakePHP provides a basic organizational structure that covers class names, filenames, database table names, and other conventions</p>
+            <p>By naming the pieces of your application using CakePHP conventions, you gain functionality without the hassle and maintenance tethers of configuration. Here’s a final example that ties the conventions together:</p>
+            <pre><code class="nohighlight">Database table: “articles”
+Table class: `ArticlesTable`, found at `src/Model/Table/ArticlesTable.php`
+Entity class: `Article`, found at `src/Model/Entity/Article.php`
+Controller class: `ArticlesController`, found at `src/Controller/ArticlesController.php`
+View template, found at `src/Template/Articles/index.ctp`
+</code></pre>
+            <h4 id="controller-conventions">Controller Conventions</h4>
+            <p>Controller class names are plural, PascalCased, and end in <code>Controller</code>. <code>UsersController</code> and <code>ArticleCategoriesController</code> are both examples of conventional controller names.</p>
+            <blockquote>
+              <p>Public methods on Controllers are often exposed as ‘actions’ accessible through a web browser. For example the <code>/users/view</code> maps to the <code>view()</code> method of the <code>UsersController</code> out of the box. Protected or private methods cannot be accessed with routing.</p>
+            </blockquote>
+            <h4 id="url-considerations-for-controller-names">URL Considerations for Controller Names</h4>
+            <p>As you’ve just seen, single word controllers map to a simple lower case URL path. For example, <strong><code>UsersController</code></strong> (which would be defined in the file name <strong>UsersController.php</strong>) is accessed from <a href="http://example.com/users" title="http://example.com/users">http://example.com/users</a>.</p>
+            <p>When you create links using <code>this-&gt;Html-&gt;link()</code>, you can use the following conventions for the url array:</p>
+            <pre><code class="nohighlight">$this-&gt;Html-&gt;link(&#39;link-title&#39;, [
+    &#39;prefix&#39; =&gt; &#39;MyPrefix&#39; // PascalCased
+    &#39;plugin&#39; =&gt; &#39;MyPlugin&#39;, // PascalCased
+    &#39;controller&#39; =&gt; &#39;ControllerName&#39;, // PascalCased
+    &#39;action&#39; =&gt; &#39;actionName&#39; // camelBacked
+]
+</code></pre>
+            <p>for more information on cakephp urls and parameter handling, see <a href="https://book.cakephp.org/3.0/en/development/routing.html#routes-configuration" title="routing - 3.x">connecting routes.</a></p>
+            <h4 id="file-and-class-name-conventions">File and Class Name Conventions</h4>
+            <p>In general, filenames match the class names, and follow the PSR-4 standard for autoloading</p>
+            <ul>
+              <li>The Controller class <strong><code>LatestArticlesController</code></strong> would be found in a file named <strong>LatestArticlesController.php</strong></li>
+              <li>The Component class <strong><code>MyHandyComponent</code></strong> would be found in a file named <strong>MyHandyComponent.php</strong></li>
+              <li>The Table class <strong><code>OptionValuesTable</code></strong> would be found in a file named <strong>OptionValuesTable.php</strong></li>
+              <li>The Entity class <strong><code>OptionValue</code></strong> would be found in a file named <strong>OptionValue.php</strong>.</li>
+              <li>The Behavior class <strong><code>EspeciallyFunkableBehavior</code></strong> would be found in a file named <strong>EspeciallyFunkableBehavior.php</strong></li>
+              <li>The View class <strong><code>SuperSimpleView</code></strong> would be found in a file named <strong>SuperSimpleView.php</strong></li>
+              <li>The Helper class <strong><code>BestEverHelper</code></strong> would be found in a file named <strong>BestEverHelper.php</strong></li>
+            </ul>
+            <h4 id="database-conventions">Database Conventions</h4>
+            <ul>
+              <li>Table names corresponding to CakePHP models are plural and underscored. <code>users, article_categories, and user_favorite_pages</code></li>
+              <li>Field/Column names with two or more words are underscored: <code>first_name</code>.</li>
+              <li>Foreign keys in hasMany, belongsTo/hasOne relationships are recognized by default as the (singular) name of the related table followed by <code>_id</code>: <code>article_category_id</code></li>
+              <li>Join tables, used in <strong>BelongsToMany</strong> relationships between models, should be named after the model tables they will join or the bake command won’t work, arranged in alphabetical order (<code>articles_tags</code> rather than <code>tags_articles</code>).</li>
+            </ul>
+            <h4 id="model-conventions">Model Conventions</h4>
+            <p>Table class names are plural, PascalCased and end in Table. <strong>UsersTable</strong>, <strong>ArticleCategoriesTable</strong>, and <strong>UserFavoritePagesTable</strong> are all examples of table class names matching the <code>users</code>, <code>article_categories</code> and <code>user_favorite_pages</code> tables respectively.</p>
+            <h4 id="view-conventions">View Conventions</h4>
+            <p>View template files are named after the controller functions they display, in an underscored form. The <strong>viewAll</strong>() function of the <strong>ArticlesController</strong> class will look for a view template in <code>src/Template/Articles/view_all.ctp.</code></p>
+            <p>The basic pattern is <code>src/Template/Controller/underscored_function_name.ctp.</code></p>
+            <h3 id="the-model-layer">The Model Layer</h3>
+            <p>The Model layer represents the part of your application that implements the business logic.</p>
+            <pre><code class="nohighlight">use Cake\ORM\TableRegistry;
+
+$users = TableRegistry::get(&#39;Users&#39;);
+$query = $users-&gt;find();
+foreach ($query as $row) {
+    echo $row-&gt;username;
+}
+</code></pre>
+            <p>If we wanted to make a new user and save it (with validation) we would do something like:</p>
+            <pre><code class="nohighlight">use Cake\ORM\TableRegistry;
+
+$users = TableRegistry::get(&#39;Users&#39;);
+$user = $users-&gt;newEntity([&#39;email&#39; =&gt; &#39;mark@example.com&#39;]);
+$users-&gt;save($user);
+</code></pre>
+            <h3 id="the-view-layer">The View Layer</h3>
+            <p>The View layer renders a presentation of modeled data</p>
+            <pre><code class="nohighlight">// In a view template file, we&#39;ll render an &#39;element&#39; for each user.
+&lt;?php foreach ($users as $user): ?&gt;
+    &lt;li class=&quot;user&quot;&gt;
+        &lt;?= $this-&gt;element(&#39;user_info&#39;, [&#39;user&#39; =&gt; $user]) ?&gt;
+    &lt;/li&gt;
+&lt;?php endforeach; ?&gt;
+</code></pre>
+            <h3 id="the-controller-layer">The Controller Layer</h3>
+            <p>The Controller layer handles requests from users. It is responsible for rendering a response with the aid of both the Model and the View layers.</p>
+            <pre><code class="nohighlight">public function add()
+{
+    $user = $this-&gt;Users-&gt;newEntity();
+    if ($this-&gt;request-&gt;is(&#39;post&#39;)) {
+        $user = $this-&gt;Users-&gt;patchEntity($user, $this-&gt;request-&gt;getData());
+        if ($this-&gt;Users-&gt;save($user, [&#39;validate&#39; =&gt; &#39;registration&#39;])) {
+            $this-&gt;Flash-&gt;success(__(&#39;You are now registered.&#39;));
+        } else {
+            $this-&gt;Flash-&gt;error(__(&#39;There were some problems.&#39;));
+        }
+    }
+    $this-&gt;set(&#39;user&#39;, $user);
+}
+</code></pre>
+            <h3 id="cakephp-request-cycle">CakePHP Request Cycle</h3>
+            <p><img src="https://book.cakephp.org/3.0/en/_images/typical-cake-request.png" alt="https://book.cakephp.org/3.0/en/_images/typical-cake-request.png"/></p>
+            <ol>
+              <li>The webserver rewrite rules direct the request to <strong>webroot/index.php.</strong></li>
+              <li>Your Application is loaded and bound to an <strong>HttpServer</strong>.</li>
+              <li>Your application’s middleware is initialized.</li>
+              <li>A request and response is dispatched through the PSR-7 Middleware that your application uses. Typically this includes error trapping and routing.</li>
+              <li>If no response is returned from the middleware and the request contains routing information, a controller &amp; action are selected.</li>
+              <li>The controller’s action is called and the controller interacts with the required Models and Components.</li>
+              <li>The controller delegates response creation to the View to generate the output resulting from the model data.</li>
+              <li>The view uses Helpers and Cells to generate the response body and headers.</li>
+              <li>The response is sent back out through the <a href="https://book.cakephp.org/3.0/en/controllers/middleware.html" title="https://book.cakephp.org/3.0/en/controllers/middleware.html">Middleware</a>.</li>
+              <li>The <strong>HttpServer</strong> emits the response to the webserver.</li>
+            </ol>
+            <h2 id="installation">Installation</h2>
+            <h3 id="requirements">Requirements</h3>
+            <ul>
+              <li>HTTP Server. For example: Apache. Having mod_rewrite is preferred, but by no means required.</li>
+              <li>PHP 5.6.0 or greater (including PHP 7.1).</li>
+              <li>mbstring PHP extension</li>
+              <li>intl PHP extension</li>
+              <li>simplexml PHP extension</li>
+            </ul>
+            <h3 id="using-cakephp">Using CakePHP</h3>
+            <ul>
+              <li>Check PHP version and PHP CLI by command <code>php -v</code></li>
+              <li>Installing <a href="https://getcomposer.org/" title="https://getcomposer.org/">Composer</a></li>
+              <li>Create a CakePHP Project <code>composer self-update &amp;&amp; composer create-project --prefer-dist cakephp/app my_app_name</code></li>
+            </ul>
+          </div>
+          <div class="content-nav content-nav-bottom">
+            <a class="prev-page" href="schoolcheater.html">
+            <i class="fa fa-angle-left"></i>
+            School Cheater
+            </a>
+          </div>
+          <div class="footer">
+            <p class="version text-muted">Version 1.0</p>
+            <p class="credit text-muted">Powered by <a href="https://github.com/kobo/gaiden">Gaiden</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js\jquery-2.1.1.min.js"></script>
+    <script src="js\highlight.js"></script>
+    <script src="js\application.js"></script>
+    <script src="js\my.js"></script>
+  </body>
+</html>

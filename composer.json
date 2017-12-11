@@ -1,7 +1,7 @@
 {
     "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
-    "homepage": "https://cakephp.org",
+    "description": "CakePHP School Cheater app",
+    "homepage": "https://iceteavn.github.io/cksc/",
     "type": "project",
     "license": "MIT",
     "require": {
